@@ -8,62 +8,83 @@ Este projeto foi desenvolvido como parte do Desafio de Testes Unitários com C# 
 ### Classes de Validação
 **Classe ValidacoesLista**
 
-RemoverNumerosNegativos:
+**RemoverNumerosNegativos:**
 
 Ao passar uma lista com diversos números, incluindo positivos e negativos, deve retornar uma nova lista apenas com números positivos.
-ListaContemDeterminadoNumero:
+
+**ListaContemDeterminadoNumero:**
 
 Ao passar uma lista com diversos números, incluindo um número específico, deve retornar verdadeiro, pois encontrou o número na lista.
-MultiplicarNumerosLista:
+
+**MultiplicarNumerosLista:**
 
 Ao passar uma lista de inteiros, deve retornar uma nova lista, com todos os elementos multiplicados por um determinado número.
-RetornarMaiorNumeroLista:
+
+**RetornarMaiorNumeroLista:**
 
 Ao passar uma lista de números inteiros, deve retornar o maior número presente na lista.
-RetornarMenorNumeroLista:
+
+**RetornarMenorNumeroLista:**
 
 Ao passar uma lista de números inteiros, deve retornar o menor número presente na lista.
-Classe ValidacoesString
-RetornarQuantidadeCaracteres:
+
+**Classe ValidacoesString**
+
+**RetornarQuantidadeCaracteres:**
 
 Ao passar um texto qualquer, deve retornar a quantidade de caracteres presentes no texto.
-ContemCaractere:
+
+**ContemCaractere:**
 
 Ao passar um texto e um trecho a ser procurado, deve retornar verdadeiro se o trecho procurado está presente no texto.
-TextoTerminaCom:
+
+**TextoTerminaCom:**
 
 Ao passar um texto e um trecho a ser procurado, deve retornar verdadeiro se o trecho procurado está presente no final do texto.
-Testes Unitários Implementados
-Classe ValidacoesListaTests
-DeveRemoverNumerosNegativosDeUmaLista:
+
+### Testes Unitários Implementados
+
+**Classe ValidacoesListaTests**
+
+**DeveRemoverNumerosNegativosDeUmaLista:**
 
 Ao passar uma lista com diversos números, incluindo positivos e negativos, deve ser retornado uma nova lista apenas com números positivos.
-DeveConterONumero9NaLista:
+
+**DeveConterONumero9NaLista:**
 
 Ao passar uma lista com diversos números, incluindo o número 9, deve retornar verdadeiro, pois encontrou o 9 na lista.
-NaoDeveConterONumero10NaLista:
+
+**NaoDeveConterONumero10NaLista:**
 
 Ao passar uma lista com diversos números, mas sem o número 10, deve retornar falso, pois não encontrou o 10 na lista.
-DeveMultiplicarOsElementosDaListaPor2:
+
+**DeveMultiplicarOsElementosDaListaPor2:**
 
 Ao passar uma lista de inteiros, deve retornar uma nova lista, com todos os elementos da lista multiplicados por 2.
-DeveRetornar9ComoMaiorNumeroDaLista:
+
+**DeveRetornar9ComoMaiorNumeroDaLista:**
 
 Ao passar uma lista de números inteiros, sendo o maior deles 9, deve retornar o 9 como maior elemento dentro dessa lista.
-DeveRetornarOitoNegativoComoMenorNumeroDaList:
+
+**DeveRetornarOitoNegativoComoMenorNumeroDaList:**
 
 Ao passar uma lista de números inteiros, sendo o menor deles -8, deve retornar o -8 como menor elemento dentro dessa lista.
-Classe ValidacoesStringTests
-DeveRetornar6QuantidadeCaracteresDaPalavraMatrix:
+
+**Classe ValidacoesStringTests**
+
+**DeveRetornar6QuantidadeCaracteresDaPalavraMatrix:**
 
 Ao passar um texto escrito a palavra "Matrix", deve retornar o número 6, representando 6 caracteres presentes na palavra.
-DeveContemAPalavraQualquerNoTexto:
+
+**DeveContemAPalavraQualquerNoTexto:**
 
 Ao passar um texto escrito "Esse é um texto qualquer" e procurar pela palavra "qualquer", deve retornar verdadeiro, pois a palavra existe no texto.
-NaoDeveConterAPalavraTesteNoTexto:
+
+**NaoDeveConterAPalavraTesteNoTexto:**
 
 Ao passar um texto escrito "Esse é um texto qualquer" e procurar pela palavra "teste", deve retornar falso, pois a palavra não existe no texto.
-TextoDeveTerminarComAPalavraProcurado:
+
+**TextoDeveTerminarComAPalavraProcurado:**
 
 Ao passar um texto escrito "Começo, meio e fim do texto procurado" e procurar pela palavra "procurado", deve retornar verdadeiro, pois a palavra existe no texto e está inclusa no final do texto.
 
