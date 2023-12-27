@@ -7,6 +7,7 @@ Este projeto foi desenvolvido como parte do Desafio de Testes Unitários com C# 
 ## Funcionalidades Implementadas
 ### Classes de Validação
 **Classe ValidacoesLista**
+
 RemoverNumerosNegativos:
 
 Ao passar uma lista com diversos números, incluindo positivos e negativos, deve retornar uma nova lista apenas com números positivos.
