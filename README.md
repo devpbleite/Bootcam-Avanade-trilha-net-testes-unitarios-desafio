@@ -5,7 +5,7 @@ www.dio.me
 Este projeto foi desenvolvido como parte do Desafio de Testes Unitários com C# na trilha .NET da Digital Innovation One (DIO). O objetivo é implementar testes unitários para validar as classes ValidacoesLista e ValidacoesString de um sistema que realiza diversas validações envolvendo listas e strings.
 
 ## Funcionalidades Implementadas
-** Classes de Validação
+**Classes de Validação**
 Classe ValidacoesLista
 RemoverNumerosNegativos:
 
